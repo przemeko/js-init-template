@@ -1,4 +1,4 @@
-# Javascript project init template
+# Init template for javascript project 
 
 ## VSCode setup:
 
