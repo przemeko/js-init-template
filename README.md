@@ -8,7 +8,7 @@
 npm install
 ```
 
-### Step 2: Install plugings:
+### Step 2: Install plugins:
 
 Install eslint plugin: `dbaeumer.vscode-eslint`  
 Install prettier plugin: `esbenp.prettier-vscode` .
