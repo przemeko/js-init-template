@@ -4,10 +4,10 @@
   "description": "description",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint ./src",
     "build": "babel src --out-dir dist",
     "dev:build": "npx babel --watch src --out-dir dist --verbose",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +15,14 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
     "husky": "^3.0.1",
+    "jest": "^24.8.0",
     "npx": "^10.2.0",
     "prettier": "^1.18.2"
   },

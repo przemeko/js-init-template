@@ -1,4 +1,5 @@
 {
+  "typescript.validate.enable": false, //vscode sometimes parse js file as ts code. WTF?
   "prettier.eslintIntegration": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

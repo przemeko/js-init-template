@@ -1,6 +1,10 @@
 {
-    "extends": "airbnb",
-    "rules": {
-        "import/prefer-default-export": false,
-    }
+  "env": {
+    "jest": true,
+    "node": true,
+  },
+  "extends": "airbnb",
+  "rules": {
+    "import/prefer-default-export": false
+  },
 }
